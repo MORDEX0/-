@@ -1,0 +1,8 @@
+C:\Users\MIKHAIL\source\repos\torti\torti\bin\Debug\torti.exe.config
+C:\Users\MIKHAIL\source\repos\torti\torti\bin\Debug\torti.exe
+C:\Users\MIKHAIL\source\repos\torti\torti\bin\Debug\torti.pdb
+C:\Users\MIKHAIL\source\repos\torti\torti\obj\Debug\torti.csproj.AssemblyReference.cache
+C:\Users\MIKHAIL\source\repos\torti\torti\obj\Debug\torti.csproj.SuggestedBindingRedirects.cache
+C:\Users\MIKHAIL\source\repos\torti\torti\obj\Debug\torti.csproj.CoreCompileInputs.cache
+C:\Users\MIKHAIL\source\repos\torti\torti\obj\Debug\torti.exe
+C:\Users\MIKHAIL\source\repos\torti\torti\obj\Debug\torti.pdb
