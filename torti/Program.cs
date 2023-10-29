@@ -92,7 +92,7 @@ namespace torti
         public static int Movement()
         {
             DateTime ordertime = DateTime.Now;
-            string orders = "Orders.txt";
+            string orders = @"c:\Users\MIKHAIL\documents\Orders.txt";
             
 
             ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
@@ -334,8 +334,8 @@ namespace torti
                     }
                     else if (position == 9)
                     {
-                        string text = "Время заказа: " + ordertime + "\nФорма: " + order[0] + "\nРазмер: " + order[1] + "\nВкус коржей: " + order[2] + "\nКоличество коржей: " + order[3]
-                            + "\nГлазурь: " + order[4] + "\nДекор" + order[5] + "Цена тортика: " + fullPrice; 
+                        string text = "\nВремя заказа: " + ordertime + "\nФорма: " + order[0] + "\nРазмер: " + order[1] + "\nВкус коржей: " + order[2] + "\nКоличество коржей: " + order[3]
+                            + "\nГлазурь: " + order[4] + "\nДекор: " + order[5] + "\nЦена тортика: " + fullPrice; 
                         File.AppendAllText(orders, text);
                         Console.WriteLine("Спасибо за заказ, для еще одного заказа нажмите Escape. Для продолжения заказа любую кнопку. Чтобы закончить заказывать нажмите Enter");
                         Console.WriteLine("Заказ сохранен.");
@@ -351,6 +351,7 @@ namespace torti
                         }
                         else if (chto.Key == ConsoleKey.Escape)
                         {
+                            order.Clear();
                             zakaz = 0;
                         }
                     }
